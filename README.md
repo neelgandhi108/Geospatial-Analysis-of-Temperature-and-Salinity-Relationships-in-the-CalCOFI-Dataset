@@ -6,25 +6,33 @@ CalCOFI performs quarterly expeditions off the southern and central Californian 
 
 This project seeks to ascertain if there is a correlation between Salinity and Temperature.
 
-2 | Relevant Links
+## 2 | Relevant Links
 Main Website: https://calcofi.com/
 Bottle-Dataset: https://new.data.calcofi.com/index.php/database/calcofi-database/bottle-field-descriptions
 Cast-Dataset: https://new.data.calcofi.com/index.php/database/calcofi-database/cast-table-column-descriptions
 
-3 | Data Exploration and Analysis (EDA)
-3.1 | Analysis of NAN Values
-3.2 | Correlation Matrix
-3.3 | Feature Plots
-3.4 | Depth, Temperature, and Salinity Analysis
-3.5 | Salinity and Temperature Analysis
+## 3 | Data Exploration and Analysis (EDA)
+### 3.1 | Analysis of NAN Values
 
-4 | Predictive Models
-4.1 | Linear Regression
-4.2 | Regression Tree
-4.3 | K-Nearest Neighbors (KNN)
-4.4 | Analysis of Feature Importance
+### 3.2 | Correlation Matrix
 
-5 | Conclusion
+###  3.3 | Feature Plots
+
+### 3.4 | Depth, Temperature, and Salinity Analysis
+
+###  3.5 | Salinity and Temperature Analysis
+
+## 4 | Predictive Models
+
+###  4.1 | Linear Regression
+
+###  4.2 | Regression Tree
+
+###  4.3 | K-Nearest Neighbors (KNN)
+
+###  4.4 | Analysis of Feature Importance
+
+## 5 | Conclusion
 Contrary to expectations, our analysis reveals no significant correlation between Temperature and Salinity as depicted in the figure on the right ('Prediction with Salinity only'). Enhancing the temperature prediction capacity of the linear regression model necessitates the incorporation of additional features (as illustrated in the middle image), such as Salinity, Density, Oxygen Saturation, and Depth.
 
 The K-Nearest Neighbors (KNN) model yields improved results when leveraging only those features with greater importance: Density and Salinity. These are the same features introduced from the theoretical model on Temperature-Salinity-Density.

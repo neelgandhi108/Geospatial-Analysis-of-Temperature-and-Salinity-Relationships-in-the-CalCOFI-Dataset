@@ -12,6 +12,13 @@ Bottle-Dataset: https://new.data.calcofi.com/index.php/database/calcofi-database
 Cast-Dataset: https://new.data.calcofi.com/index.php/database/calcofi-database/cast-table-column-descriptions
 
 ## 3 | Data Exploration and Analysis (EDA)
+
+![Machine Learning Image](ML.png)
+
+![EDA Image](eda.png)
+
+![Temperature-Salinity Image](temp_sal.png)
+
 ### 3.1 | Analysis of NAN Values
 
 ### 3.2 | Correlation Matrix

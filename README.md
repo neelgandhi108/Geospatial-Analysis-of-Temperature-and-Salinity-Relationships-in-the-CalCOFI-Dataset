@@ -13,31 +13,24 @@ Cast-Dataset: https://new.data.calcofi.com/index.php/database/calcofi-database/c
 
 ## 3 | Data Exploration and Analysis (EDA)
 
-![Machine Learning Image](ML.png)
+In the Data Exploration and Analysis (EDA) section of the project, an extensive exploration and scrutiny of the dataset is conducted. An image, which provides a visual summary of the analysis, is included. The EDA process entails an examination of NAN values, the establishment of a correlation matrix, and the creation of feature plots. The analysis then delves into more specific aspects, such as scrutinizing the interrelation between Depth, Temperature, and Salinity, followed by a focused examination of the relationship between Salinity and Temperature. These steps facilitate a robust understanding of the data and set the groundwork for the subsequent development and application of predictive models.
 
 ![EDA Image](eda.png)
 
-![Temperature-Salinity Image](temp_sal.png)
-
-### 3.1 | Analysis of NAN Values
-
-### 3.2 | Correlation Matrix
-
-###  3.3 | Feature Plots
-
-### 3.4 | Depth, Temperature, and Salinity Analysis
-
-###  3.5 | Salinity and Temperature Analysis
 
 ## 4 | Predictive Models
 
-###  4.1 | Linear Regression
+The Predictive Models section delves into the development and application of several models to establish potential connections within the dataset. Initially, a Linear Regression model is used to predict and analyze relationships between the different variables. Following this, a Regression Tree model is applied, offering a different approach to making predictions based on decision rules. Finally, the K-Nearest Neighbors (KNN) model is utilized, a method that classifies data points based on their similarity to nearby neighbors. These varied models provide a comprehensive evaluation of the data and contribute to a nuanced understanding of the relationships between Temperature, Salinity, and other features.
 
-###  4.2 | Regression Tree
+![Machine Learning Image](ML.png)
 
-###  4.3 | K-Nearest Neighbors (KNN)
 
-###  4.4 | Analysis of Feature Importance
+
+### Analysis of Feature Importance
+
+
+
+![Temperature-Salinity Image](temp_sal.png)
 
 ## 5 | Conclusion
 Contrary to expectations, our analysis reveals no significant correlation between Temperature and Salinity as depicted in the figure on the right ('Prediction with Salinity only'). Enhancing the temperature prediction capacity of the linear regression model necessitates the incorporation of additional features (as illustrated in the middle image), such as Salinity, Density, Oxygen Saturation, and Depth.

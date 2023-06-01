@@ -1,5 +1,7 @@
 # Geospatial-Analysis-of-Temperature-and-Salinity-Relationships-in-the-CalCOFI-Dataset
 
+Neel Gandhi(F006F1F) - MS Computer Science - Project Spring 2023
+
 The CalCOFI dataset, stretching from 1949 to the present, represents the world's most comprehensive time series of oceanographic and larval fish data, with over 50,000 sampling stations. It encapsulates abundance data for the larvae of more than 250 fish species, frequency data for larval length, and egg abundance data for key commercial species, in addition to oceanographic and plankton data. These datasets, collected at regular intervals, have proved invaluable in recording climatic cycles in the California Current and the diverse biological responses they elicit. Notably, the CalCOFI research brought international focus to the biological reactions to the substantial Pacific-warming event during 1957-58, pioneering the term "El Niño" in scientific literature.
 
 CalCOFI performs quarterly expeditions off the southern and central Californian coast, collating an array of hydrographic and biological data on station and underway. Data, amassed at depths of up to 500m, incorporate temperature, salinity, oxygen, phosphate, silicate, nitrate and nitrite, chlorophyll, transmissometer, PAR, C14 primary productivity, phytoplankton biodiversity, zooplankton biomass, and zooplankton biodiversity.
